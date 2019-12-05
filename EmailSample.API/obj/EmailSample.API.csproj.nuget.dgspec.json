@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.API\\EmailSample.API.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.API\\EmailSample.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.API\\EmailSample.API.csproj",
+        "projectName": "EmailSample.API",
+        "projectPath": "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.API\\EmailSample.API.csproj",
+        "packagesPath": "C:\\Users\\1720\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1720\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.Domain\\EmailSample.Domain.csproj": {
+                "projectPath": "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.Domain\\EmailSample.Domain.csproj"
+              },
+              "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.Infra\\EmailSample.Data.csproj": {
+                "projectPath": "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.Infra\\EmailSample.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.Domain\\EmailSample.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.Domain\\EmailSample.Domain.csproj",
+        "projectName": "EmailSample.Domain",
+        "projectPath": "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.Domain\\EmailSample.Domain.csproj",
+        "packagesPath": "C:\\Users\\1720\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1720\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.Infra\\EmailSample.Data.csproj": {
+                "projectPath": "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.Infra\\EmailSample.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.Infra\\EmailSample.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.Infra\\EmailSample.Data.csproj",
+        "projectName": "EmailSample.Data",
+        "projectPath": "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.Infra\\EmailSample.Data.csproj",
+        "packagesPath": "C:\\Users\\1720\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\1720\\source\\repos\\EmailAPISample\\EmailSample.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1720\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
